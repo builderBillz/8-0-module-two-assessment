@@ -2,7 +2,6 @@ fetch(`https://ghibliapi.herokuapp.com/films`)
 .then((response) => response.json())
 .then((films) => {
 
-
     const movieSelection = document.querySelector("#movie-selection")
     const movieTitle = document.querySelector("#movie-title")
     const releaseYear = document.querySelector("#release-year")
@@ -16,7 +15,7 @@ fetch(`https://ghibliapi.herokuapp.com/films`)
     });
 
     document.querySelector("#movie-selection").addEventListener("change", (event) => {
-        event.preventDefault();
+    event.preventDefault();
 
         console.log(event.target.value)
         films.forEach(film => {
