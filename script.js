@@ -1,7 +1,7 @@
 fetch(`https://ghibliapi.herokuapp.com/films`)
 .then((response) => response.json())
 .then((films) => {
-    console.log(films)
+
 
     const movieSelection = document.querySelector("#movie-selection")
     const movieTitle = document.querySelector("#movie-title")

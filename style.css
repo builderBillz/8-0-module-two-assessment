@@ -1,6 +1,7 @@
 body{
     background-color: lavender;
     margin-left: 280px;
+    font-family: monospace;
 }
 
 header{
@@ -9,8 +10,7 @@ header{
     height: 175px;
     width: 75%;
     background-color: skyblue;
-    /* margin-left: 175px;
-    margin-right: 70px; */
+    font-family: monospace;
 }
 
 img{
